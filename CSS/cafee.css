@@ -1,0 +1,138 @@
+.head{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+.head img.headimage {
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto;
+    height: 75px;
+    width: 75px;
+    padding-bottom: 10px;
+}
+ul{
+    box-shadow:0px 2px 5px #777;
+    list-style-type: none;
+    margin: 0;
+    padding-left: 15px;
+    overflow: hidden;
+}
+li {
+    padding-left: 10px;
+    text-align: center;
+    float: left;
+  }
+li a {
+    padding-left: 20px;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    margin: 20px;
+}
+li a:hover {
+    color: white;
+    background-color: #db7093;
+    font-weight: bold;
+}
+.tclink:link {color: #000000}
+.tclink:visited {color: #ec0c17}
+.tclink:hover {color: #FFCC00}
+.tclink:active {color: #b869a8}
+
+.linkdn:link {color: #000000}
+.linkdn:visited {color: #fcfafa}
+.linkdn:hover {color: #ff7b00}
+.linkdn:active {color: #b869a8}
+
+.content-left{
+    display: inline;
+    position: inherit;
+}
+.content-left .section-image{
+    padding-left: 650px;
+    height: 500px;
+    width:600px;
+}
+#taikhoan #search{
+    padding-right: 75px;
+}
+#taikhoan {
+    color: rgb(210, 223, 235);
+    padding-top:10px;
+    padding-left: 968px;
+    padding-bottom: 10px;
+    background-color: rgb(228, 38, 48);
+    height:45px;
+    font-weight: bolder;
+    margin:0px;
+    font-size:18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#taikhoan a{
+    text-decoration: none;
+}
+.box{
+    padding-left: 1000px;
+}
+.otimkiem{
+    padding-top: 10px;
+}
+hr{
+    width: 100%
+    size: 3px
+    color:red
+}
+.footer{
+    background-color: #000000;
+    height: 400px;
+    width: 100%;
+    color:#fff;
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+} 
+.footer > div {
+    width: 50%;
+    height: 400px;
+    margin: 60px;
+    color: white;
+    line-height: 17px;
+}
+.footer .info{
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.footer .info #infodc{
+    color:red
+}
+.footer .email > b{
+    padding-bottom:35px;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.footer .email .odkemail #oemail{
+    width: 300px;
+}
+.content-left{
+    display: flex;
+    flex-direction: row;
+}
+.content-left > div{
+    height: 400px;
+    justify-content: space-between;
+}
+.content-left .section-times{
+    width: 70%;
+    padding-top: 100px;
+}
+.content-left .section-images{
+    padding-top: 100px;
+}
+.content-left .section-images img.section-image{
+    width:200px;
+    height: 200px;
+}
